@@ -1,0 +1,122 @@
+.red-th {
+    background-color: red;
+    color: #fff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-style th, .table-style td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.table-style th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-style tr:hover {
+    background-color: #e0e0e0;
+}
+
+.button-style {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: #0056b3;
+}
+
+.form-td {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.form-td label {
+    font-size: 16px; /* You can adjust label font size separately */
+}
+
+.form-td input[type='text'], .form-td input[type='password'] {
+    font-size: 16px; /* You can adjust input font size separately */
+}
+
+.form-td input[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; /* You can adjust button font size separately */
+}
+
+.form-td input[type='submit']:hover {
+    background-color: #0056b3;
+}
